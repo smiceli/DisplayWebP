@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E67944A11C8547E500FD954C /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = E67944A01C8547E500FD954C /* ReadMe.md */; };
+		E69155821C83877600B59731 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69155811C83877600B59731 /* ImageCell.swift */; };
+		E69155841C848C5E00B59731 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69155831C848C5E00B59731 /* UIViewExtension.swift */; };
+		E6D4C8381C7AD79900CBC60D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D4C8371C7AD79900CBC60D /* WebP.framework */; };
+		E6D4C83A1C7AD7F900CBC60D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4C8391C7AD7F900CBC60D /* UIImageExtension.swift */; };
 		E6E0B9631C7A0DC2005C1787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0B9621C7A0DC2005C1787 /* AppDelegate.swift */; };
 		E6E0B9651C7A0DC2005C1787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E0B9641C7A0DC2005C1787 /* ViewController.swift */; };
 		E6E0B9681C7A0DC2005C1787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E0B9661C7A0DC2005C1787 /* Main.storyboard */; };
@@ -15,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E67944A01C8547E500FD954C /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		E69155811C83877600B59731 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		E69155831C848C5E00B59731 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E6D4C8371C7AD79900CBC60D /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		E6D4C8391C7AD7F900CBC60D /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		E6D4C83B1C7AD91500CBC60D /* DisplayWebP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisplayWebP-Bridging-Header.h"; sourceTree = "<group>"; };
 		E6E0B95F1C7A0DC2005C1787 /* DisplayWebP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayWebP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E0B9621C7A0DC2005C1787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E0B9641C7A0DC2005C1787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D4C8381C7AD79900CBC60D /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +50,10 @@
 		E6E0B9561C7A0DC2005C1787 = {
 			isa = PBXGroup;
 			children = (
+				E67944A01C8547E500FD954C /* ReadMe.md */,
 				E6E0B9611C7A0DC2005C1787 /* DisplayWebP */,
 				E6E0B9601C7A0DC2005C1787 /* Products */,
+				E6D4C8371C7AD79900CBC60D /* WebP.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +70,14 @@
 			children = (
 				E6E0B9621C7A0DC2005C1787 /* AppDelegate.swift */,
 				E6E0B9641C7A0DC2005C1787 /* ViewController.swift */,
+				E69155811C83877600B59731 /* ImageCell.swift */,
+				E69155831C848C5E00B59731 /* UIViewExtension.swift */,
 				E6E0B9661C7A0DC2005C1787 /* Main.storyboard */,
 				E6E0B9691C7A0DC2005C1787 /* Assets.xcassets */,
 				E6E0B96B1C7A0DC2005C1787 /* LaunchScreen.storyboard */,
 				E6E0B96E1C7A0DC2005C1787 /* Info.plist */,
+				E6D4C8391C7AD7F900CBC60D /* UIImageExtension.swift */,
+				E6D4C83B1C7AD91500CBC60D /* DisplayWebP-Bridging-Header.h */,
 			);
 			path = DisplayWebP;
 			sourceTree = "<group>";
@@ -135,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69155841C848C5E00B59731 /* UIViewExtension.swift in Sources */,
 				E6E0B9651C7A0DC2005C1787 /* ViewController.swift in Sources */,
+				E67944A11C8547E500FD954C /* ReadMe.md in Sources */,
+				E69155821C83877600B59731 /* ImageCell.swift in Sources */,
 				E6E0B9631C7A0DC2005C1787 /* AppDelegate.swift in Sources */,
+				E6D4C83A1C7AD7F900CBC60D /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +273,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DisplayWebP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smiceli.DisplayWebP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DisplayWebP/DisplayWebP-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -262,10 +289,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DisplayWebP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smiceli.DisplayWebP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DisplayWebP/DisplayWebP-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +320,7 @@
 				E6E0B9731C7A0DC2005C1787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
